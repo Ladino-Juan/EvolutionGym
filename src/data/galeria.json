@@ -1,0 +1,86 @@
+{
+    "sede1Media": [
+      {
+        "type": "photo",
+        "src": "assets/images/sede-cuba/img1.jpg",
+        "alt": "gimnasio pereira"
+      },
+      {
+        "type": "photo",
+        "src": "assets/images/sede-cuba/img2.jpg",
+        "alt": "gimnasio pereira"
+      },
+      {
+        "type": "photo",
+        "src": "assets/images/sede-cuba/img3.jpg",
+        "alt": "gimnasio pereira"
+      },
+      {
+        "type": "photo",
+        "src": "assets/images/sede-cuba/img4.jpg",
+        "alt": "gimnasio pereira"
+      },
+      {
+        "type": "photo",
+        "src": "assets/images/sede-cuba/img5.jpg",
+        "alt": "gimnasio pereira"
+      },
+      {
+        "type": "photo",
+        "src": "assets/images/sede-cuba/img6.jpg",
+        "alt": "gimnasio pereira"
+      },
+      {
+        "type": "photo",
+        "src": "assets/images/sede-cuba/img7.jpg",
+        "alt": "gimnasio pereira"
+      },
+      {
+        "type": "photo",
+        "src": "assets/images/sede-cuba/img8.jpg",
+        "alt": "gimnasio pereira"
+      }
+    ],
+    "sede2Media": [
+        {
+            "type": "photo",
+            "src": "assets/images/sede-dosq/img1.jpg",
+            "alt": "gimnasio dosquebradas"
+          },
+          {
+            "type": "photo",
+            "src": "assets/images/sede-dosq/img2.jpg",
+            "alt": "gimnasio dosquebradas"
+          },
+          {
+            "type": "photo",
+            "src": "assets/images/sede-dosq/img3.jpg",
+            "alt": "gimnasio sede dosquebradas"
+          },
+          {
+            "type": "photo",
+            "src": "assets/images/sede-dosq/img4.jpg",
+            "alt": "gimnasio dosquebradas"
+          },
+          {
+            "type": "photo",
+            "src": "assets/images/sede-dosq/img5.jpg",
+            "alt": "gimnasio dosquebradas"
+          },
+          {
+            "type": "photo",
+            "src": "assets/images/sede-dosq/img6.jpg",
+            "alt": "gimnasio dosquebradas"
+          },
+          {
+            "type": "photo",
+            "src": "assets/images/sede-dosq/img7.jpg",
+            "alt": "gimnasio dosquebradas"
+          },
+          {
+            "type": "photo",
+            "src": "assets/images/sede-dosq/img8.jpg",
+            "alt": "gimnasio dosquebradas"
+          }
+    ]
+  }
