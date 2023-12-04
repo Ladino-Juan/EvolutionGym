@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./App.css";
 import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
-import NavBar from "./components/navBar.jsx";
+import NavBar from "./components/NavBar.jsx";
 import Footer from "./components/Footer.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(

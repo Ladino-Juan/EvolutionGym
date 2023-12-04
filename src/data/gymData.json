@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Evolution Fit",
       "address": "Canchas sintéticas el bernabeu Cuba - Pereira",
-      "image": "assets/images/sede-cuba/img1.jpg",
+      "image": "assets/images/sede-cuba/img1.webp",
       "info": ["Inscripción gratis", "Entrenador personalizado", "Asesoria nutrición", "Asesoria suplementación deportiva", "Parqueadero gratis carro y moto"],
       "precio": "55.000"
     },
@@ -11,7 +11,7 @@
       "id": 2,
       "name": "Evolution Gym",
       "address": "Barrio el Japón-Dosquebradas Cra 31 #8-10",
-      "image": "assets/images/sede-dosq/img1.jpg",
+      "image": "assets/images/sede-dosq/img1.webp",
       "info": ["Inscripción gratis", "Entrenador personalizado", "Asesoria nutrición", "Asesoria suplementación deportiva"],
       "precio": "55.000"
     }

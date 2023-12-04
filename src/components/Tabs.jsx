@@ -39,6 +39,7 @@ const Tabs = () => {
         {["Lun", "Mar", "Mie", "Jue", "Vie"].map((day) => (
           <button
             key={day}
+            aria-label="selecciona el día de la clase"
             className={`${
               activeTab === day ? "bg-amarillo" : "bg-oscuro"
             } text-white px-4 py-2 mr-2 rounded-lg hover:bg-amarillo transition-all duration-300`}
@@ -50,6 +51,7 @@ const Tabs = () => {
       </div>
       <div className="w-full flex font-roboto pl-10 max-sm:mt-5 max-sm:justify-center">
         <button
+          aria-label="selecciona el horario diurno"
           className={`${
             activeH === "diurno" ? "bg-amarillo" : "bg-oscuro"
           } text-white px-4 py-2 mr-2 rounded-lg hover:bg-amarillo transition-all duration-300`}
@@ -58,6 +60,7 @@ const Tabs = () => {
           7:15 AM
         </button>
         <button
+          aria-label="selecciona el horario nocturno"
           className={`${
             activeH === "nocturno" ? "bg-amarillo" : "bg-oscuro"
           } text-white px-4 py-2 mr-2 rounded-lg hover:bg-amarillo transition-all duration-300`}

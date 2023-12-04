@@ -1,32 +1,32 @@
 {
   "MILITAR": {
     "nombre": "MILITAR",
-    "modelo": "assets/images/clases/militar.png",
+    "modelo": "assets/images/clases/militar.webp",
     "des": "¡Prepárate para una experiencia de entrenamiento militar transformadora! Únete a nuestra clase y desafía tus límites físicos y mentales. Con un enfoque riguroso y profesional, nuestro equipo de instructores altamente capacitados te guiará a través de un programa integral que incluye entrenamiento de resistencia, trabajo en equipo, disciplina y superación personal. Aprenderás técnicas militares probadas, mejorando tu fuerza, resistencia y agilidad."
   },
   "CARDIOBOX": {
     "nombre": "CARDIO BOX",
-    "modelo": "assets/images/clases/cardiobox.png",
+    "modelo": "assets/images/clases/cardiobox.webp",
     "des": "¡Descubre el poder del cardio box! Únete a nuestra clase y libera tu energía mientras quemas calorías y tonificas tu cuerpo. Nuestros entrenadores expertos te guiarán a través de una combinación de movimientos de boxeo y ejercicios cardiovasculares de alto impacto. Mejora tu resistencia, coordinación y fuerza mientras te diviertes y te desafías a ti mismo. ¡Ven y experimenta una clase llena de adrenalina y resultados increíbles!"
   },
   "RUMBA": {
     "nombre": "RUMBA TERAPIA",
-    "modelo": "assets/images/clases/rumba.png",
+    "modelo": "assets/images/clases/rumba.webp",
     "des": "¡Siente el ritmo y diviértete con nuestra clase de Rumba Terapia! Únete a nosotros y déjate llevar por la música mientras quemas calorías y mejoras tu salud. Nuestros instructores te guiarán a través de movimientos divertidos y contagiosos, fusionando baile y ejercicio. Libera el estrés, mejora tu coordinación y tonifica tu cuerpo mientras disfrutas de una experiencia de fitness llena de alegría y energía positiva. ¡Ven y únete a la fiesta de la Rumba Terapia!"
   },
   "GAP": {
     "nombre": "G.A.P",
-    "modelo": "assets/images/clases/gap.png",
+    "modelo": "assets/images/clases/gap.webp",
     "des": "¡Eleva tu nivel de fitness con nuestra clase de G.A.P (Glúteos, Abdominales y Piernas)! Únete a nuestro entrenamiento enfocado en tonificar y fortalecer tus glúteos, abdominales y piernas. Nuestros instructores te guiarán a través de una combinación de ejercicios específicos que trabajarán esos grupos musculares de manera efectiva. Obtén resultados visibles, mejora tu resistencia y define tu figura. ¡Ven y descubre una clase intensa y desafiante que transformará tu cuerpo!"
   },
   "ABS": {
     "nombre": "ABS",
-    "modelo": "assets/images/clases/abs.png",
+    "modelo": "assets/images/clases/abs.webp",
     "des": "¡Desafía tus abdominales y obtén un core fuerte en nuestra clase de ABS! Únete a nosotros y trabaja esos músculos abdominales para obtener un abdomen tonificado y definido. Nuestros instructores expertos te guiarán a través de una variedad de ejercicios específicos para fortalecer tus abdominales, incluyendo crunches, planchas y otros movimientos enfocados en el core. ¡Ven y descubre una clase intensa que te ayudará a lograr un abdomen fuerte y esculpido!"
   },
   "CROSSFIT": {
     "nombre": "CROSSFIT",
-    "modelo": "assets/images/clases/crossfit.png",
+    "modelo": "assets/images/clases/crossfit.webp",
     "des": "¡Descubre el poder del CrossFit! Únete a nuestra clase y desafía tus límites físicos. Con entrenamientos intensos y variados que combinan levantamiento de pesas, ejercicios cardiovasculares y movimientos funcionales, mejorarás tu fuerza, resistencia y flexibilidad. Nuestros entrenadores certificados te guiarán en un ambiente de compañerismo, motivación y superación personal. ¡Ven y experimenta el entrenamiento de alta intensidad que te transformará física y mentalmente!"
   }
 }

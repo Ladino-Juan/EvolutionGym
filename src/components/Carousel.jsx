@@ -1,12 +1,11 @@
 import { useState, createRef } from "react";
 
 const images = [
-  "/assets/images/carrusel/img1.jpg",
-  "/assets/images/carrusel/img2.jpg",
-  "/assets/images/carrusel/img3.jpg",
-  "/assets/images/carrusel/img4.jpg",
+  "/assets/images/carrusel/img4.webp",
+  "/assets/images/carrusel/img2.webp",
+  "/assets/images/carrusel/img3.webp",
+  "/assets/images/carrusel/img1.webp",
 ];
-
 
 const Carousel = () => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -48,6 +47,7 @@ const Carousel = () => {
 
   const sliderControl = (isLeft) => (
     <button
+      aria-label="ver siguiente o anterior entrenador"
       type="button"
       onClick={isLeft ? previousImage : nextImage}
       className={`${arrowStyle} ${
@@ -55,11 +55,37 @@ const Carousel = () => {
       } bg-amarillo hover:bg-oscuro hover:text-amarillo transition-all duration-300`}
       style={{ top: "40%" }}
     >
-      <i
-        className={
-          isLeft ? "fa-solid fa-arrow-left" : "fa-solid fa-arrow-right"
-        }
-      ></i>
+      {isLeft ? (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="w-6 h-6"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75"
+          />
+        </svg>
+      ) : (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="w-6 h-6"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+          />
+        </svg>
+      )}
     </button>
   );
 

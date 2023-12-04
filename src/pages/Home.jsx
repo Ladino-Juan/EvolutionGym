@@ -2,6 +2,7 @@ import { ElfsightWidget } from "react-elfsight-widget";
 import GymPage from "../components/gymPage";
 import Carousel from "../components/Carousel";
 
+
 const Home = () => {
  
   return (
@@ -10,7 +11,7 @@ const Home = () => {
       <div className="w-full h-screen relative overflow-hidden custom-gradient flex justify-center items-center">
         <img
           className="absolute w-full h-screen object-cover block sm:hidden"
-          src="assets/images/Battling_ropes.jpeg"
+          src="assets/images/Battling_ropes.webp"
           alt="modelo fitness battle rope | Evolution gym Pereira"
         ></img>
         <div className="absolute hidden sm:block top-44 right-[-40%] bg-yellow-400 w-3/4 h-3/4 rounded-[368.594px] transform rotate-[141.03deg] mx-auto"></div>
@@ -27,7 +28,7 @@ const Home = () => {
           <div className="flex flex-col my-4">
             <a
               href="#contacto"
-              className="px-8 py-3 border bg-oscuro hover:bg-white text-white font-semibold hover:text-oscuro border-oscuro hover:border-transparent rounded transition-all duration-300 sm:hidden block"
+              className="px-8 py-3 border bg-oscuro hover:bg-white text-white font-semibold hover:text-oscuro border-oscuro hover:border-transparent rounded transition-all duration-300 sm:hidden block" aria-label="contacto gimnasio evolution fit pereira"
             >
               CONTACTO
             </a>
@@ -35,7 +36,7 @@ const Home = () => {
         </div>
         <img
           className=" h-3/4 max-w-full mx-auto mr-32 hidden lg:block z-[1]"
-          src="/assets/images/gymModel.png"
+          src="/assets/images/gymModel.webp"
           alt="modelo de gimnasio | Evolution gym Pereira"
         ></img>
         <div className="absolute bg-oscuro h-24 w-screen bottom-0 z-[2] hidden sm:flex justify-around items-center">
@@ -46,12 +47,12 @@ const Home = () => {
           ></img>
           <img
             className="w-64"
-            src="assets/images/mm.avif"
+            src="assets/images/mm.webp"
             alt="Muscle meds logo | Evolution gym Pereira"
           ></img>
           <img
             className="w-40"
-            src="assets/images/onLogo.png"
+            src="assets/images/onLogo.webp"
             alt="Optimum nutrition logo | Evolution gym Pereira"
           ></img>
         </div>
@@ -78,8 +79,10 @@ const Home = () => {
 
       {/*Servicios seccion */}
       <div className="w-full overflow-hidden bg-white mt-7" id="servicios">
-        
-        <ElfsightWidget widgetID="799fbdf3-d6b4-4ab9-a323-0df0c6ba0603" />
+  
+      <ElfsightWidget widgetID="799fbdf3-d6b4-4ab9-a323-0df0c6ba0603" lazy/>
+
+     
         <GymPage />
       </div>
     </>

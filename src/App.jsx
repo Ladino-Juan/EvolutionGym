@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Routes
+      <Route
         path="/evolution_cuba"
         element={
           <Suspense fallback={<>Loading...</>}>
